@@ -1,0 +1,46 @@
+{
+  "name": "read-lcov-safe",
+  "version": "1.0.0",
+  "description": "Read and parse an lcov file without try catch",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/read-lcov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/read-lcov.git"
+  },
+  "keywords": [],
+  "files": [
+    "build"
+  ],
+  "main": "build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "commit": "bob commit",
+    "lint": "bob lint",
+    "release": "bob release",
+    "test": "bob test"
+  },
+  "dependencies": {
+    "parse-lcov": "^1.0.1",
+    "read-file-safe": "^1.0.5"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.6.3"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-bob"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "bob commit lint"
+    }
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-bob"
+  }
+}
