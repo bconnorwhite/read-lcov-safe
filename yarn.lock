@@ -6450,10 +6450,10 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
-parse-lcov@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/parse-lcov/-/parse-lcov-1.0.1.tgz#7a0d7e2bbd7628d759af1b563b76ca321767337e"
-  integrity sha512-Wu8qDC4nShButRVz7G+dyx0PaRKVW19dtfsU69oHM1DF7aSEC6cNOXwbcN5c8N/oincqoOIr0NEWu6t8BBJMyg==
+parse-lcov@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/parse-lcov/-/parse-lcov-1.0.2.tgz#06a5a48558a04a7c91f586f4a9385c32eac01afb"
+  integrity sha512-1srE9PWwWG3x81a2Up7Ki9/NTtaytMuCzD4hOQKIsH5AlZWOO4bn+hgTHLL2s8tg8PDpA7MR1JSya1+ZBdCL4Q==
 
 parse-passwd@^1.0.0:
   version "1.0.0"
