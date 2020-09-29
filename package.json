@@ -1,6 +1,6 @@
 {
   "name": "read-lcov-safe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read and parse an lcov file without try catch",
   "license": "MIT",
   "author": {
