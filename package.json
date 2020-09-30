@@ -8,10 +8,10 @@
     "email": "connor.bcw@gmail.com",
     "url": "https://connorwhite.org"
   },
-  "homepage": "https://connorwhite.org/github/read-lcov",
+  "homepage": "https://connorwhite.org/github/read-lcov-safe",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bconnorwhite/read-lcov.git"
+    "url": "git+https://github.com/bconnorwhite/read-lcov-safe.git"
   },
   "keywords": [],
   "files": [
