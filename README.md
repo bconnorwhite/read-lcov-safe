@@ -23,11 +23,11 @@
 
 ## Installation
 
-```bash
+```sh
 yarn add read-lcov-safe
 ```
 
-```bash
+```sh
 npm install read-lcov-safe
 ```
 
@@ -89,7 +89,9 @@ readLCOV(path).then((lcov) => {
   // }]
 });
 ```
+
 ### Types
+
 ```ts
 import { readLCOV, readLCOVSync } from "read-lcov-safe";
 
@@ -140,13 +142,15 @@ type LinesDetails = {
 <h2>Dependencies<img align="right" alt="dependencies" src="https://img.shields.io/david/bconnorwhite/read-lcov-safe.svg"></h2>
 
 - [parse-lcov](https://www.npmjs.com/package/parse-lcov): Parse LCOV
-- [read-file-safe](https://www.npmjs.com/package/read-file-safe): Read files without try catch.
+- [read-file-safe](https://www.npmjs.com/package/read-file-safe): Read files without try catch
 
 <br />
 
 <h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/read-lcov-safe.svg"></h2>
 
-- [@bconnorwhite/bob](https://www.npmjs.com/package/@bconnorwhite/bob): undefined
+- [@bconnorwhite/bob](https://www.npmjs.com/package/@bconnorwhite/bob): Bob is a toolkit for TypeScript projects
+- [@types/mock-fs](https://www.npmjs.com/package/@types/mock-fs): TypeScript definitions for mock-fs
+- [mock-fs](https://www.npmjs.com/package/mock-fs): A configurable mock file system.  You know, for testing.
 
 <br />
 
@@ -154,3 +158,9 @@ type LinesDetails = {
 
 [MIT](https://opensource.org/licenses/MIT)
 
+<br />
+
+## Related Packages
+
+- [read-json-safe](https://www.npmjs.com/package/read-json-safe): Read JSON files without try catch
+- [read-md-safe](https://www.npmjs.com/package/read-md-safe): Read markdown files as a Marked token list or string
